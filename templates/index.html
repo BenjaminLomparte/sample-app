@@ -1,9 +1,48 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Sample app</title>
-    <link rel="stylesheet" href="/static/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f4f6f8;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      color: #222;
+      font-size: 2rem;
+    }
+
+    p {
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>You are calling me from {{request.remote_addr}}</h1>
+
+  <div class="card">
+    <h1>Benjamin Lomparte</h1>
+    <p>Bienvenido a mi página</p>
+  </div>
+
 </body>
 </html>
